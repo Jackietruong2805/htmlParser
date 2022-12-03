@@ -1,0 +1,17 @@
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\bin\Debug\net7.0\htmlParser2.exe
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\bin\Debug\net7.0\htmlParser2.deps.json
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\bin\Debug\net7.0\htmlParser2.runtimeconfig.json
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\bin\Debug\net7.0\htmlParser2.dll
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\bin\Debug\net7.0\htmlParser2.pdb
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\htmlParser2.csproj.AssemblyReference.cache
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\htmlParser2.GeneratedMSBuildEditorConfig.editorconfig
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\htmlParser2.AssemblyInfoInputs.cache
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\htmlParser2.AssemblyInfo.cs
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\htmlParser2.csproj.CoreCompileInputs.cache
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\htmlParser2.dll
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\refint\htmlParser2.dll
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\htmlParser2.pdb
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\htmlParser2.genruntimeconfig.cache
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\ref\htmlParser2.dll
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\bin\Debug\net7.0\HtmlAgilityPack.dll
+D:\cấu trúc dữ liệu và giải thuật\Doan\htmlParser2\obj\Debug\net7.0\htmlParser2.csproj.CopyComplete
