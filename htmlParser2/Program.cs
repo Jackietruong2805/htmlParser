@@ -1,6 +1,6 @@
 ﻿using System;
 using HtmlAgilityPack;
-using ReadSharp;
+
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -72,7 +72,7 @@ public class Node
             }
             Console.WriteLine();
         }
-    class HTMLLParser: HtmlUtilities
+    class HTMLLParser
     {
         static void Main(string[] args)
         {
