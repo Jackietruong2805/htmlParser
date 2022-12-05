@@ -94,8 +94,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
             string[] strlist = tag.Split(spearator,
                    StringSplitOptions.RemoveEmptyEntries);
 
-
-
             int count = 0;
 
             for (int i = 0; i < strlist.Length; i++)
@@ -117,11 +115,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 }
             }
 
-            // foreach(string s in strlist)
-            // {
-            //     Console.WriteLine(s);
-            // }
-
             string[] newTag = new string[strlist.Length - count];
             int index = 0;
             for (int i = 0; i < strlist.Length; i++)
@@ -132,9 +125,6 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 }
             }
 
-            // for(int i = 0; i < newTag.Length; i++){
-            //     Console.WriteLine(newTag[i]);
-            // }
             Boolean isTagValid = true;
             for (int i = 0; i < newTag.Length; i++)
             {
