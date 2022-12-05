@@ -83,14 +83,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
             {
                 if (nNode.NodeType == HtmlNodeType.Element)
                 {
-                    //Console.WriteLine(nNode.Name);
                     tag += nNode.Name + " ";
                 }
-
             }
 
             string[] spearator = { " " };
-            // using the method
             string[] strlist = tag.Split(spearator,
                    StringSplitOptions.RemoveEmptyEntries);
 
