@@ -72,7 +72,7 @@ namespace WindowsFormsApp4
         }
         public Boolean checkHtmlTag(string html)
         {
-            string[] listHtml = { "div", "a", "span", "li", "b", "ul", "h1", "h2", "h3", "h4", "h5", "h6", "p", "section", "template", "b", "i", "strong" };
+            string[] listHtml = { "div", "a", "span", "li", "b", "ul", "h1", "h2", "h3", "h4", "h5", "h6", "p", "section", "template", "button", "i", "strong", "main", "header", "time", "textarea", "table", "tbody", "th", "td", "tfoot" };
 
             var htmlDoc = new HtmlDocument();
             htmlDoc.LoadHtml(html);
