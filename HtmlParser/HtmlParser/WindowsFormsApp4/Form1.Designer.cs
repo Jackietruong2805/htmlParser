@@ -67,7 +67,7 @@
             this.lblPlainText.ForeColor = System.Drawing.Color.Black;
             this.lblPlainText.Location = new System.Drawing.Point(561, 189);
             this.lblPlainText.Name = "lblPlainText";
-            this.lblPlainText.Padding = new System.Windows.Forms.Padding(10);
+            this.lblPlainText.Padding = new System.Windows.Forms.Padding(10, 10, 0, 0);
             this.lblPlainText.Size = new System.Drawing.Size(409, 435);
             this.lblPlainText.TabIndex = 5;
             this.lblPlainText.Click += new System.EventHandler(this.lblPlainText_Click);

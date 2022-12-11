@@ -22,22 +22,17 @@ namespace WindowsFormsApp4
             next = n;
         }
     }
-    class QueuesLinked
+    class Queue
     {
         Node front;
         Node rear;
         int size;
 
-        public QueuesLinked()
+        public Queue()
         {
             front = null;
             rear = null;
             size = 0;
-        }
-
-        public int length()
-        {
-            return size;
         }
 
         public bool isEmpty()
@@ -56,20 +51,6 @@ namespace WindowsFormsApp4
             size = size + 1;
         }
 
-        public string dequeue()
-        {
-            if (isEmpty())
-            {
-                Console.WriteLine("Queue is Empty");
-                return "-1";
-            }
-            string e = front.element;
-            front = front.next;
-            size = size - 1;
-            if (isEmpty())
-                rear = null;
-            return e;
-        }
         public Boolean checkHtmlTag(string html)
         {
             string[] listHtml = { "div", "a", "span", "li", "b", "ul", "h1", "h2", "h3", "h4", "h5", "h6", "p", "section", "template", "button", "i", "strong", "main", "header", "time", "textarea", "table", "tbody", "th", "td", "tfoot" };

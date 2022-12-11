@@ -33,7 +33,7 @@ namespace WindowsFormsApp4
             string html = txtHtmlRaw.Text;
             HtmlDocument htmldoc = new HtmlDocument();
             htmldoc.LoadHtml(html);
-            QueuesLinked q = new QueuesLinked();
+            Queue q = new Queue();
             var body = htmldoc.DocumentNode.SelectSingleNode("//body");
             HtmlNodeCollection childnodes = body.ChildNodes;
             lblPlainText.Text = "";
@@ -49,7 +49,10 @@ namespace WindowsFormsApp4
                     {
                         if (node.NodeType == HtmlNodeType.Element)
                         {
-                            q.enqueue(node.InnerText);
+                            if(node.InnerText != "")
+                            {
+                                q.enqueue(node.InnerText);
+                            }
                         }
                     }
                 }
